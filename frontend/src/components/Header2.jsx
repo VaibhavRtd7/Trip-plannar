@@ -1,11 +1,12 @@
 // import React from 'react'
+import video from "../assets/vid/bgvid.mp4"
 
 function Header2() {
   return (
     <>
       <div className="flex items-center justify-center min-h-screen relative">
         <video
-          src="../src/assets/vid/bgvid.mp4"
+          src={video}
           type="video/mp4"
           autoPlay
           muted
