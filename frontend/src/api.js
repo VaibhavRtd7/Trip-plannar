@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/api/";
+const url = import.meta.env.VITE_API;
 import axios from "axios";
 
 export const postCall = async(endpoint, data)=>{
