@@ -16,7 +16,7 @@ function Header2() {
 
         <div className="text-white text-center z-10">
           <h1 className="text-8xl font-bold transition duration-300 hover:text-yellow-500">
-            FIRSTFLIGHT TRAVELS
+            WANDERLUST TRAVELS
           </h1>
           <p className="mt-4 text-2xl">
             Plan your trip with us and travel around the world with the most

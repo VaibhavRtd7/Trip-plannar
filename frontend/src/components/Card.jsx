@@ -1,4 +1,3 @@
-import CityButton from "./Buttons/CityButton";
 
 function Card() {
   //  console.log("In Card Class")
@@ -21,7 +20,6 @@ function Card() {
         </p>
       </div>
 
-     <CityButton />
      </div>
   );
 }
