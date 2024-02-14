@@ -18,12 +18,12 @@ export default function Header() {
             </div>
             <div className="hidden md:flex md:items-center md:justify-center md:gap-5">
                 <Link to='/'
-                    className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
+                    className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-500 hover:text-gray-900 hover:font-bold   focus:ring-2 focus:ring-gray-600"   
                     href="#">HOME</Link>
-                <Link to='/destinations' className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
+                <Link to='/destinations' className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-500 hover:text-gray-900 hover:font-bold focus:ring-2 focus:ring-gray-600"
                     href="#">DESTINATION</Link>
 
-                <Link to='/about' className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900"
+                <Link to='/about' className="inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-500 hover:text-gray-900 hover:font-bold  focus:ring-2 focus:ring-gray-600 "
                     href="#">ABOUT US</Link>
             </div>
             <div className="flex items-center justify-end gap-3">
