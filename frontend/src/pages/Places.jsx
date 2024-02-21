@@ -115,7 +115,7 @@ export default function Places() {
   const [selected, setSelected] = useState("places");
 
   return (
-    <div className="w-full p-5">
+    <div className="w-full p-5 mt-24">
       <Card className="max-w-full w-full ">
         <CardBody className="overflow-hidden">
           <Tabs
